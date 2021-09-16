@@ -6,6 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightblue;
+  text-align: center;
 }
 
 header {
@@ -22,7 +23,7 @@ article {
   padding: 50px;
   width: 100%;
   background-color: #f1f1f1;
-  height: 500px; 
+  height: 350px; 
   text-align: center;
 }
 
@@ -39,4 +40,13 @@ a:link, a:visited {
   
   a:hover, a:active {
     background-color: black;
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+  }
+  
+#hobbies {
+    text-align: center;
+    width: 20%;
 }
